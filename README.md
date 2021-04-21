@@ -1,5 +1,5 @@
 # MDMPatcher-Remastered
-# Easy Patcher App written in Swift
+# Easy MDM Patcher App written in Swift
 
 The iDevice need to be compatible with checkra1n and jailbroken to be able to apply the patches...
 
