@@ -3,17 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60DB97A36C7BE1828386576F /* Pods_MDMPatcher_Remastered.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49604FA8F270A6768B60F77B /* Pods_MDMPatcher_Remastered.framework */; };
 		E4F64987261F02C800F5D5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F64986261F02C800F5D5FC /* AppDelegate.swift */; };
 		E4F64989261F02C800F5D5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F64988261F02C800F5D5FC /* ViewController.swift */; };
 		E4F6498B261F02C900F5D5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6498A261F02C900F5D5FC /* Assets.xcassets */; };
 		E4F6498E261F02C900F5D5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4F6498C261F02C900F5D5FC /* Main.storyboard */; };
+		E4F6499E261F099600F5D5FC /* SSH_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F6499D261F099600F5D5FC /* SSH_functions.m */; };
+		E4F649A2261F0D4300F5D5FC /* libidevicefunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = E4F649A0261F0D4300F5D5FC /* libidevicefunctions.c */; };
+		E4F649B3261F0DD000F5D5FC /* common in Resources */ = {isa = PBXBuildFile; fileRef = E4F649B2261F0DD000F5D5FC /* common */; };
+		E4F649ED261F114200F5D5FC /* libcbpatcher-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649DD261F114100F5D5FC /* libcbpatcher-old.a */; };
+		E4F649EE261F114200F5D5FC /* libiboot32patcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649DE261F114100F5D5FC /* libiboot32patcher.a */; };
+		E4F649EF261F114200F5D5FC /* libcbpatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649DF261F114100F5D5FC /* libcbpatcher.a */; };
+		E4F649F0261F114200F5D5FC /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E0261F114100F5D5FC /* libplist.dylib */; };
+		E4F649F1261F114200F5D5FC /* libxpwntool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E1261F114100F5D5FC /* libxpwntool.a */; };
+		E4F649F3261F114200F5D5FC /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */; };
+		E4F649F4261F114200F5D5FC /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E4261F114100F5D5FC /* libzip.dylib */; };
+		E4F649F5261F114200F5D5FC /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E5261F114100F5D5FC /* libssl.dylib */; };
+		E4F649F6261F114300F5D5FC /* libimobiledevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */; };
+		E4F649F7261F114300F5D5FC /* libxpwntool-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E7261F114100F5D5FC /* libxpwntool-old.a */; };
+		E4F649F8261F114300F5D5FC /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E8261F114100F5D5FC /* libcrypto.dylib */; };
+		E4F649F9261F114300F5D5FC /* libirecovery.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E9261F114100F5D5FC /* libirecovery.dylib */; };
+		E4F649FA261F114300F5D5FC /* libidevicerestore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649EA261F114100F5D5FC /* libidevicerestore.a */; };
+		E4F649FB261F114400F5D5FC /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649EB261F114200F5D5FC /* libcurl.dylib */; };
+		E4F649FC261F114400F5D5FC /* libfragmentzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649EC261F114200F5D5FC /* libfragmentzip.dylib */; };
+		E4F649FD261F11D900F5D5FC /* libcrypto.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E8261F114100F5D5FC /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F649FE261F11DA00F5D5FC /* libcurl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649EB261F114200F5D5FC /* libcurl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F649FF261F11DC00F5D5FC /* libfragmentzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649EC261F114200F5D5FC /* libfragmentzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F64A00261F11DE00F5D5FC /* libimobiledevice.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F64A01261F11DF00F5D5FC /* libirecovery.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E9261F114100F5D5FC /* libirecovery.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F64A02261F11E100F5D5FC /* libplist.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E0261F114100F5D5FC /* libplist.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F64A03261F11E200F5D5FC /* libssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E5261F114100F5D5FC /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F64A04261F11E400F5D5FC /* libusbmuxd.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E4F64A05261F11E700F5D5FC /* libzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = E4F649E4261F114100F5D5FC /* libzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E4F649AE261F0D7500F5D5FC /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E4F64A01261F11DF00F5D5FC /* libirecovery.dylib in Embed Libraries */,
+				E4F64A05261F11E700F5D5FC /* libzip.dylib in Embed Libraries */,
+				E4F64A04261F11E400F5D5FC /* libusbmuxd.dylib in Embed Libraries */,
+				E4F64A00261F11DE00F5D5FC /* libimobiledevice.dylib in Embed Libraries */,
+				E4F649FE261F11DA00F5D5FC /* libcurl.dylib in Embed Libraries */,
+				E4F649FD261F11D900F5D5FC /* libcrypto.dylib in Embed Libraries */,
+				E4F649FF261F11DC00F5D5FC /* libfragmentzip.dylib in Embed Libraries */,
+				E4F64A03261F11E200F5D5FC /* libssl.dylib in Embed Libraries */,
+				E4F64A02261F11E100F5D5FC /* libplist.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0234B84309F2DD89B2F13BFE /* Pods-MDMPatcher Remastered.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMPatcher Remastered.debug.xcconfig"; path = "Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered.debug.xcconfig"; sourceTree = "<group>"; };
+		49604FA8F270A6768B60F77B /* Pods_MDMPatcher_Remastered.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDMPatcher_Remastered.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4CE2391F7C3C4E3C20A5D84 /* Pods-MDMPatcher Remastered.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMPatcher Remastered.release.xcconfig"; path = "Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered.release.xcconfig"; sourceTree = "<group>"; };
 		E4F64983261F02C800F5D5FC /* MDMPatcher Remastered.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MDMPatcher Remastered.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F64986261F02C800F5D5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4F64988261F02C800F5D5FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +74,28 @@
 		E4F6498D261F02C900F5D5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4F6498F261F02C900F5D5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4F64990261F02C900F5D5FC /* MDMPatcher_Remastered.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MDMPatcher_Remastered.entitlements; sourceTree = "<group>"; };
+		E4F6499C261F099600F5D5FC /* MDMPatcher Remastered-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MDMPatcher Remastered-Bridging-Header.h"; sourceTree = "<group>"; };
+		E4F6499D261F099600F5D5FC /* SSH_functions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSH_functions.m; sourceTree = "<group>"; };
+		E4F649A0261F0D4300F5D5FC /* libidevicefunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libidevicefunctions.c; sourceTree = "<group>"; };
+		E4F649A1261F0D4300F5D5FC /* libidevicefunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libidevicefunctions.h; sourceTree = "<group>"; };
+		E4F649B2261F0DD000F5D5FC /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
+		E4F649B4261F0E4C00F5D5FC /* usbmuxd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usbmuxd.h; sourceTree = "<group>"; };
+		E4F649DD261F114100F5D5FC /* libcbpatcher-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcbpatcher-old.a"; path = "MDMPatcher Remastered/libcbpatcher-old.a"; sourceTree = "<group>"; };
+		E4F649DE261F114100F5D5FC /* libiboot32patcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiboot32patcher.a; path = "MDMPatcher Remastered/libiboot32patcher.a"; sourceTree = "<group>"; };
+		E4F649DF261F114100F5D5FC /* libcbpatcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcbpatcher.a; path = "MDMPatcher Remastered/libcbpatcher.a"; sourceTree = "<group>"; };
+		E4F649E0261F114100F5D5FC /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.dylib; path = "MDMPatcher Remastered/libplist.dylib"; sourceTree = "<group>"; };
+		E4F649E1261F114100F5D5FC /* libxpwntool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxpwntool.a; path = "MDMPatcher Remastered/libxpwntool.a"; sourceTree = "<group>"; };
+		E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.dylib; path = "MDMPatcher Remastered/libusbmuxd.dylib"; sourceTree = "<group>"; };
+		E4F649E4261F114100F5D5FC /* libzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzip.dylib; path = "MDMPatcher Remastered/libzip.dylib"; sourceTree = "<group>"; };
+		E4F649E5261F114100F5D5FC /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = "MDMPatcher Remastered/libssl.dylib"; sourceTree = "<group>"; };
+		E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.dylib; path = "MDMPatcher Remastered/libimobiledevice.dylib"; sourceTree = "<group>"; };
+		E4F649E7261F114100F5D5FC /* libxpwntool-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libxpwntool-old.a"; path = "MDMPatcher Remastered/libxpwntool-old.a"; sourceTree = "<group>"; };
+		E4F649E8261F114100F5D5FC /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = "MDMPatcher Remastered/libcrypto.dylib"; sourceTree = "<group>"; };
+		E4F649E9261F114100F5D5FC /* libirecovery.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirecovery.dylib; path = "MDMPatcher Remastered/libirecovery.dylib"; sourceTree = "<group>"; };
+		E4F649EA261F114100F5D5FC /* libidevicerestore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libidevicerestore.a; path = "MDMPatcher Remastered/libidevicerestore.a"; sourceTree = "<group>"; };
+		E4F649EB261F114200F5D5FC /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = "MDMPatcher Remastered/libcurl.dylib"; sourceTree = "<group>"; };
+		E4F649EC261F114200F5D5FC /* libfragmentzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfragmentzip.dylib; path = "MDMPatcher Remastered/libfragmentzip.dylib"; sourceTree = "<group>"; };
+		E4F64A06261F124500F5D5FC /* SSH_functions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSH_functions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +103,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F649F1261F114200F5D5FC /* libxpwntool.a in Frameworks */,
+				E4F649F4261F114200F5D5FC /* libzip.dylib in Frameworks */,
+				E4F649F7261F114300F5D5FC /* libxpwntool-old.a in Frameworks */,
+				E4F649F9261F114300F5D5FC /* libirecovery.dylib in Frameworks */,
+				E4F649F3261F114200F5D5FC /* libusbmuxd.dylib in Frameworks */,
+				E4F649FC261F114400F5D5FC /* libfragmentzip.dylib in Frameworks */,
+				E4F649F0261F114200F5D5FC /* libplist.dylib in Frameworks */,
+				E4F649EF261F114200F5D5FC /* libcbpatcher.a in Frameworks */,
+				E4F649ED261F114200F5D5FC /* libcbpatcher-old.a in Frameworks */,
+				E4F649EE261F114200F5D5FC /* libiboot32patcher.a in Frameworks */,
+				60DB97A36C7BE1828386576F /* Pods_MDMPatcher_Remastered.framework in Frameworks */,
+				E4F649FA261F114300F5D5FC /* libidevicerestore.a in Frameworks */,
+				E4F649FB261F114400F5D5FC /* libcurl.dylib in Frameworks */,
+				E4F649F6261F114300F5D5FC /* libimobiledevice.dylib in Frameworks */,
+				E4F649F5261F114200F5D5FC /* libssl.dylib in Frameworks */,
+				E4F649F8261F114300F5D5FC /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293F1A58BE3D13DEA026123A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4F649DD261F114100F5D5FC /* libcbpatcher-old.a */,
+				E4F649DF261F114100F5D5FC /* libcbpatcher.a */,
+				E4F649E8261F114100F5D5FC /* libcrypto.dylib */,
+				E4F649EB261F114200F5D5FC /* libcurl.dylib */,
+				E4F649EC261F114200F5D5FC /* libfragmentzip.dylib */,
+				E4F649DE261F114100F5D5FC /* libiboot32patcher.a */,
+				E4F649EA261F114100F5D5FC /* libidevicerestore.a */,
+				E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */,
+				E4F649E9261F114100F5D5FC /* libirecovery.dylib */,
+				E4F649E0261F114100F5D5FC /* libplist.dylib */,
+				E4F649E5261F114100F5D5FC /* libssl.dylib */,
+				E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */,
+				E4F649E7261F114100F5D5FC /* libxpwntool-old.a */,
+				E4F649E1261F114100F5D5FC /* libxpwntool.a */,
+				E4F649E4261F114100F5D5FC /* libzip.dylib */,
+				49604FA8F270A6768B60F77B /* Pods_MDMPatcher_Remastered.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20B543B695DEAF851E5F4AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0234B84309F2DD89B2F13BFE /* Pods-MDMPatcher Remastered.debug.xcconfig */,
+				A4CE2391F7C3C4E3C20A5D84 /* Pods-MDMPatcher Remastered.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E4F6497A261F02C800F5D5FC = {
 			isa = PBXGroup;
 			children = (
 				E4F64985261F02C800F5D5FC /* MDMPatcher Remastered */,
 				E4F64984261F02C800F5D5FC /* Products */,
+				E20B543B695DEAF851E5F4AF /* Pods */,
+				293F1A58BE3D13DEA026123A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,10 +180,17 @@
 			children = (
 				E4F64986261F02C800F5D5FC /* AppDelegate.swift */,
 				E4F64988261F02C800F5D5FC /* ViewController.swift */,
+				E4F649B2261F0DD000F5D5FC /* common */,
+				E4F6499D261F099600F5D5FC /* SSH_functions.m */,
+				E4F64A06261F124500F5D5FC /* SSH_functions.h */,
+				E4F649A0261F0D4300F5D5FC /* libidevicefunctions.c */,
+				E4F649A1261F0D4300F5D5FC /* libidevicefunctions.h */,
+				E4F649B4261F0E4C00F5D5FC /* usbmuxd.h */,
 				E4F6498A261F02C900F5D5FC /* Assets.xcassets */,
 				E4F6498C261F02C900F5D5FC /* Main.storyboard */,
 				E4F6498F261F02C900F5D5FC /* Info.plist */,
 				E4F64990261F02C900F5D5FC /* MDMPatcher_Remastered.entitlements */,
+				E4F6499C261F099600F5D5FC /* MDMPatcher Remastered-Bridging-Header.h */,
 			);
 			path = "MDMPatcher Remastered";
 			sourceTree = "<group>";
@@ -70,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4F64993261F02C900F5D5FC /* Build configuration list for PBXNativeTarget "MDMPatcher Remastered" */;
 			buildPhases = (
+				A47FE31B421BACB57A922085 /* [CP] Check Pods Manifest.lock */,
 				E4F6497F261F02C800F5D5FC /* Sources */,
 				E4F64980261F02C800F5D5FC /* Frameworks */,
 				E4F64981261F02C800F5D5FC /* Resources */,
+				CFB0A04366C2314420392EB1 /* [CP] Embed Pods Frameworks */,
+				E4F649AE261F0D7500F5D5FC /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -94,6 +229,7 @@
 				TargetAttributes = {
 					E4F64982261F02C800F5D5FC = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -121,11 +257,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F6498B261F02C900F5D5FC /* Assets.xcassets in Resources */,
+				E4F649B3261F0DD000F5D5FC /* common in Resources */,
 				E4F6498E261F02C900F5D5FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A47FE31B421BACB57A922085 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDMPatcher Remastered-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB0A04366C2314420392EB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4F6497F261F02C800F5D5FC /* Sources */ = {
@@ -134,6 +313,8 @@
 			files = (
 				E4F64989261F02C800F5D5FC /* ViewController.swift in Sources */,
 				E4F64987261F02C800F5D5FC /* AppDelegate.swift in Sources */,
+				E4F6499E261F099600F5D5FC /* SSH_functions.m in Sources */,
+				E4F649A2261F0D4300F5D5FC /* libidevicefunctions.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,42 +449,147 @@
 		};
 		E4F64994261F02C900F5D5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0234B84309F2DD89B2F13BFE /* Pods-MDMPatcher Remastered.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "MDMPatcher Remastered/MDMPatcher_Remastered.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7Q5J2XFGWC;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/NMSSH/NMSSH.framework/Headers\"",
+					/usr/local/Cellar/libssh2/1.9.0_1/include,
+					/usr/local/include,
+				);
 				INFOPLIST_FILE = "MDMPatcher Remastered/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.j4nf4b3l.MDMPatcher-Remastered";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDMPatcher Remastered/MDMPatcher Remastered-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		E4F64995261F02C900F5D5FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4CE2391F7C3C4E3C20A5D84 /* Pods-MDMPatcher Remastered.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "MDMPatcher Remastered/MDMPatcher_Remastered.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7Q5J2XFGWC;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/NMSSH/NMSSH.framework/Headers\"",
+					/usr/local/Cellar/libssh2/1.9.0_1/include,
+					/usr/local/include,
+				);
 				INFOPLIST_FILE = "MDMPatcher Remastered/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+					"$(PROJECT_DIR)/MDMPatcher\\ Remastered",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.j4nf4b3l.MDMPatcher-Remastered";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MDMPatcher Remastered/MDMPatcher Remastered-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

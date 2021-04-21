@@ -14,13 +14,27 @@ class ViewController: NSViewController {
 
         // Do any additional setup after loading the view.
     }
+    override func viewDidAppear() {
+        DispatchQueue.global(qos: .background).async {
+            main_iproxy()
+        }
+    }
 
     override var representedObject: Any? {
         didSet {
         // Update the view, if already loaded.
         }
     }
+    
+    @IBAction func Go(_ sender: Any) {
+        /// Better validation of success would be good here...
+        if eraseSSH() == 0 {
+            print("Done")
+        }
+    }
 
+
+    
 
 }
 

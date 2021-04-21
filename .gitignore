@@ -1,0 +1,55 @@
+
+Podfile.lock
+Pods/Manifest.lock
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered.release.xcconfig
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered.modulemap
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered.debug.xcconfig
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-umbrella.h
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-Info.plist
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks.sh
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks-Release-output-files.xcfilelist
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks-Release-input-files.xcfilelist
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks-Debug-output-files.xcfilelist
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-frameworks-Debug-input-files.xcfilelist
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-dummy.m
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-acknowledgements.plist
+Pods/Target Support Files/Pods-MDMPatcher Remastered/Pods-MDMPatcher Remastered-acknowledgements.markdown
+Pods/Target Support Files/NMSSH/NMSSH.release.xcconfig
+Pods/Target Support Files/NMSSH/NMSSH.modulemap
+Pods/Target Support Files/NMSSH/NMSSH.debug.xcconfig
+Pods/Target Support Files/NMSSH/NMSSH-umbrella.h
+Pods/Target Support Files/NMSSH/NMSSH-prefix.pch
+Pods/Target Support Files/NMSSH/NMSSH-Info.plist
+Pods/Target Support Files/NMSSH/NMSSH-dummy.m
+Pods/Pods.xcodeproj/xcuserdata/janfabel.xcuserdatad/xcschemes/xcschememanagement.plist
+Pods/Pods.xcodeproj/xcuserdata/janfabel.xcuserdatad/xcschemes/Pods-MDMPatcher Remastered.xcscheme
+Pods/Pods.xcodeproj/xcuserdata/janfabel.xcuserdatad/xcschemes/NMSSH.xcscheme
+Pods/Pods.xcodeproj/project.pbxproj
+Pods/NMSSH/README.md
+Pods/NMSSH/NMSSH/Protocols/NMSSHSessionDelegate.h
+Pods/NMSSH/NMSSH/Protocols/NMSSHChannelDelegate.h
+Pods/NMSSH/NMSSH/NMSSHSession.m
+Pods/NMSSH/NMSSH/NMSSHSession.h
+Pods/NMSSH/NMSSH/NMSSHHostConfig.m
+Pods/NMSSH/NMSSH/NMSSHHostConfig.h
+Pods/NMSSH/NMSSH/NMSSHConfig.m
+Pods/NMSSH/NMSSH/NMSSHConfig.h
+Pods/NMSSH/NMSSH/NMSSHChannel.m
+Pods/NMSSH/NMSSH/NMSSHChannel.h
+Pods/NMSSH/NMSSH/NMSSH.h
+Pods/NMSSH/NMSSH/NMSFTPFile.m
+Pods/NMSSH/NMSSH/NMSFTPFile.h
+Pods/NMSSH/NMSSH/NMSFTP.m
+Pods/NMSSH/NMSSH/NMSFTP.h
+Pods/NMSSH/NMSSH/Config/socket_helper.m
+Pods/NMSSH/NMSSH/Config/socket_helper.h
+Pods/NMSSH/NMSSH/Config/NMSSHLogger.m
+Pods/NMSSH/NMSSH/Config/NMSSHLogger.h
+Pods/NMSSH/NMSSH/Config/NMSSH+Protected.h
+Pods/NMSSH/NMSSH-OSX/Libraries/lib/libssl.a
+Pods/NMSSH/NMSSH-OSX/Libraries/lib/libssh2.a
+Pods/NMSSH/NMSSH-OSX/Libraries/lib/libcrypto.a
+Pods/NMSSH/NMSSH-OSX/Libraries/include/libssh2/libssh2_sftp.h
+Pods/NMSSH/NMSSH-OSX/Libraries/include/libssh2/libssh2_publickey.h
+Pods/NMSSH/NMSSH-OSX/Libraries/include/libssh2/libssh2.h
+Pods/NMSSH/LICENSE
