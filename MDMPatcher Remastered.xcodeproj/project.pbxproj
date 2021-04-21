@@ -15,16 +15,11 @@
 		E4F6499E261F099600F5D5FC /* SSH_functions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F6499D261F099600F5D5FC /* SSH_functions.m */; };
 		E4F649A2261F0D4300F5D5FC /* libidevicefunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = E4F649A0261F0D4300F5D5FC /* libidevicefunctions.c */; };
 		E4F649B3261F0DD000F5D5FC /* common in Resources */ = {isa = PBXBuildFile; fileRef = E4F649B2261F0DD000F5D5FC /* common */; };
-		E4F649ED261F114200F5D5FC /* libcbpatcher-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649DD261F114100F5D5FC /* libcbpatcher-old.a */; };
-		E4F649EE261F114200F5D5FC /* libiboot32patcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649DE261F114100F5D5FC /* libiboot32patcher.a */; };
-		E4F649EF261F114200F5D5FC /* libcbpatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649DF261F114100F5D5FC /* libcbpatcher.a */; };
 		E4F649F0261F114200F5D5FC /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E0261F114100F5D5FC /* libplist.dylib */; };
-		E4F649F1261F114200F5D5FC /* libxpwntool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E1261F114100F5D5FC /* libxpwntool.a */; };
 		E4F649F3261F114200F5D5FC /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */; };
 		E4F649F4261F114200F5D5FC /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E4261F114100F5D5FC /* libzip.dylib */; };
 		E4F649F5261F114200F5D5FC /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E5261F114100F5D5FC /* libssl.dylib */; };
 		E4F649F6261F114300F5D5FC /* libimobiledevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */; };
-		E4F649F7261F114300F5D5FC /* libxpwntool-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E7261F114100F5D5FC /* libxpwntool-old.a */; };
 		E4F649F8261F114300F5D5FC /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E8261F114100F5D5FC /* libcrypto.dylib */; };
 		E4F649F9261F114300F5D5FC /* libirecovery.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649E9261F114100F5D5FC /* libirecovery.dylib */; };
 		E4F649FA261F114300F5D5FC /* libidevicerestore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F649EA261F114100F5D5FC /* libidevicerestore.a */; };
@@ -80,16 +75,11 @@
 		E4F649A1261F0D4300F5D5FC /* libidevicefunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libidevicefunctions.h; sourceTree = "<group>"; };
 		E4F649B2261F0DD000F5D5FC /* common */ = {isa = PBXFileReference; lastKnownFileType = folder; path = common; sourceTree = "<group>"; };
 		E4F649B4261F0E4C00F5D5FC /* usbmuxd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usbmuxd.h; sourceTree = "<group>"; };
-		E4F649DD261F114100F5D5FC /* libcbpatcher-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcbpatcher-old.a"; path = "MDMPatcher Remastered/libcbpatcher-old.a"; sourceTree = "<group>"; };
-		E4F649DE261F114100F5D5FC /* libiboot32patcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiboot32patcher.a; path = "MDMPatcher Remastered/libiboot32patcher.a"; sourceTree = "<group>"; };
-		E4F649DF261F114100F5D5FC /* libcbpatcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcbpatcher.a; path = "MDMPatcher Remastered/libcbpatcher.a"; sourceTree = "<group>"; };
 		E4F649E0261F114100F5D5FC /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libplist.dylib; path = "MDMPatcher Remastered/libplist.dylib"; sourceTree = "<group>"; };
-		E4F649E1261F114100F5D5FC /* libxpwntool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxpwntool.a; path = "MDMPatcher Remastered/libxpwntool.a"; sourceTree = "<group>"; };
 		E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusbmuxd.dylib; path = "MDMPatcher Remastered/libusbmuxd.dylib"; sourceTree = "<group>"; };
 		E4F649E4261F114100F5D5FC /* libzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libzip.dylib; path = "MDMPatcher Remastered/libzip.dylib"; sourceTree = "<group>"; };
 		E4F649E5261F114100F5D5FC /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = "MDMPatcher Remastered/libssl.dylib"; sourceTree = "<group>"; };
 		E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimobiledevice.dylib; path = "MDMPatcher Remastered/libimobiledevice.dylib"; sourceTree = "<group>"; };
-		E4F649E7261F114100F5D5FC /* libxpwntool-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libxpwntool-old.a"; path = "MDMPatcher Remastered/libxpwntool-old.a"; sourceTree = "<group>"; };
 		E4F649E8261F114100F5D5FC /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = "MDMPatcher Remastered/libcrypto.dylib"; sourceTree = "<group>"; };
 		E4F649E9261F114100F5D5FC /* libirecovery.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libirecovery.dylib; path = "MDMPatcher Remastered/libirecovery.dylib"; sourceTree = "<group>"; };
 		E4F649EA261F114100F5D5FC /* libidevicerestore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libidevicerestore.a; path = "MDMPatcher Remastered/libidevicerestore.a"; sourceTree = "<group>"; };
@@ -103,16 +93,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F649F1261F114200F5D5FC /* libxpwntool.a in Frameworks */,
 				E4F649F4261F114200F5D5FC /* libzip.dylib in Frameworks */,
-				E4F649F7261F114300F5D5FC /* libxpwntool-old.a in Frameworks */,
 				E4F649F9261F114300F5D5FC /* libirecovery.dylib in Frameworks */,
 				E4F649F3261F114200F5D5FC /* libusbmuxd.dylib in Frameworks */,
 				E4F649FC261F114400F5D5FC /* libfragmentzip.dylib in Frameworks */,
 				E4F649F0261F114200F5D5FC /* libplist.dylib in Frameworks */,
-				E4F649EF261F114200F5D5FC /* libcbpatcher.a in Frameworks */,
-				E4F649ED261F114200F5D5FC /* libcbpatcher-old.a in Frameworks */,
-				E4F649EE261F114200F5D5FC /* libiboot32patcher.a in Frameworks */,
 				60DB97A36C7BE1828386576F /* Pods_MDMPatcher_Remastered.framework in Frameworks */,
 				E4F649FA261F114300F5D5FC /* libidevicerestore.a in Frameworks */,
 				E4F649FB261F114400F5D5FC /* libcurl.dylib in Frameworks */,
@@ -128,20 +113,15 @@
 		293F1A58BE3D13DEA026123A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E4F649DD261F114100F5D5FC /* libcbpatcher-old.a */,
-				E4F649DF261F114100F5D5FC /* libcbpatcher.a */,
 				E4F649E8261F114100F5D5FC /* libcrypto.dylib */,
 				E4F649EB261F114200F5D5FC /* libcurl.dylib */,
 				E4F649EC261F114200F5D5FC /* libfragmentzip.dylib */,
-				E4F649DE261F114100F5D5FC /* libiboot32patcher.a */,
 				E4F649EA261F114100F5D5FC /* libidevicerestore.a */,
 				E4F649E6261F114100F5D5FC /* libimobiledevice.dylib */,
 				E4F649E9261F114100F5D5FC /* libirecovery.dylib */,
 				E4F649E0261F114100F5D5FC /* libplist.dylib */,
 				E4F649E5261F114100F5D5FC /* libssl.dylib */,
 				E4F649E3261F114100F5D5FC /* libusbmuxd.dylib */,
-				E4F649E7261F114100F5D5FC /* libxpwntool-old.a */,
-				E4F649E1261F114100F5D5FC /* libxpwntool.a */,
 				E4F649E4261F114100F5D5FC /* libzip.dylib */,
 				49604FA8F270A6768B60F77B /* Pods_MDMPatcher_Remastered.framework */,
 			);
